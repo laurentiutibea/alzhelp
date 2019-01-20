@@ -9,6 +9,11 @@
 </h1>
 
 <h4 align="center">AlzHelp - Localiztion & Pill Reminder</h4>
+<br>
+<div align="center">
+  <img src="https://i.ibb.co/64kzJ2F/50661407-547008745778223-6679246161909383168-n.jpg" alt="AlzHelp" width=200>
+  <img src="https://i.ibb.co/CB8kJ71/50456939-218728859073494-5509460794632306688-n.jpg" alt="AlzHelp" width=200>
+</div>
 
 ## Descriere
 
@@ -23,29 +28,29 @@
   Aplicatia este dependenta de API-ul: https://github.com/laurentiutibea/alzhelp_api
   
   Rularea aplicatiei:
-  * 1) Instalarea modulelor API-ului
+  * Instalarea modulelor API-ului
   ```
   # >cd alzhelp_api
   $ npm install
   ```
-  * 2) Pornirea API-ului
+  * Pornirea API-ului
   ```
   # >cd alzhelp_api
   # Setarea unui cod privat pentru criptarea JWT-ului generat la autentificare.
   $ set alzhelp_jwtPrivateKey=jwtPrivateKey
   $ node index.js
   ```
-  * 3) Instalarea modulelor aplicatiei
+  * Instalarea modulelor aplicatiei
    ```
   # >cd alzhelp
   $ npm install
   ```
-  * 4) Pornirea aplicatiei
+  * Pornirea aplicatiei
   ```
   # >cd alzhelp
   $ expo start
   ```
-  * 5) < Optional > Crearea aplicatiei standalone
+  * < Optional > Crearea aplicatiei standalone
   ```
   # >cd alzhelp
   # Pentru android:
@@ -54,3 +59,8 @@
   $ expo build:ios
   ```
   
+## Contact
+
+> Email: [laurentiutibea@gmail.com] &middot;
+> GitHub [@laurentiutibea](https://github.com/laurentiutibea)
+
