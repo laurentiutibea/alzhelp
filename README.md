@@ -11,7 +11,7 @@
 <h4 align="center">AlzHelp - Localiztion & Pill Reminder</h4>
 <br>
 <div align="center">
-  <img src="https://i.ibb.co/64kzJ2F/50661407-547008745778223-6679246161909383168-n.jpg" alt="AlzHelp" width=200>
+  <img src="https://i.ibb.co/M8dDS3q/50236730-2249243415335729-4926195100440068096-n.jpg" alt="AlzHelp" width=200>
   <img src="https://i.ibb.co/CB8kJ71/50456939-218728859073494-5509460794632306688-n.jpg" alt="AlzHelp" width=200>
 </div>
 
