@@ -58,7 +58,11 @@
   # For iOS:
   $ expo build:ios
   ```
-  
+## Known bugs
+
+  - Scheduled notifications are not yet implemented in expo. They work only with the app opened.
+  - Background localization is not yet implemented in expo. Localization work only with the app opened.
+
 ## Contact
 
 > Email: [laurentiutibea@gmail.com] &middot;
