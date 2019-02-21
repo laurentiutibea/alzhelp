@@ -15,47 +15,47 @@
   <img src="https://i.ibb.co/CB8kJ71/50456939-218728859073494-5509460794632306688-n.jpg" alt="AlzHelp" width=200>
 </div>
 
-## Descriere
+## Description
 
-  AlzHelp este o aplicatie creata special pentru a ajuta persoanele cu Alzheimer amintindu-le printr-o notificare cand e momentul sa ia anumite pastile, iar in background este monitorizata locatia dispozitivului celui bolnav.
+  AlzHelp is an application specifically designed to help people with Alzheimer's. remind them when it's time to take some pills. An extra utility is background tracking of the patient's device.
 
-  Persoana care are grija de bolnav (denumita administrator in aplicatie) va trebui sa isi asocieze contul cu contul pacientului apoi va putea sa trimita notificari programate sau in timp real persoanei bolnave. Aceste notificari contin denumirea medicamentului ce va trebui sa si-l administreze. Administratorul va avea acces si la locatia pacientului.
-  ex: Aceasta functie este utila in cazul in care pacientul s-a pierdut intr-un oras.
+  The patient caregiver (called administrator in the application) will need to associate their account with the patient's account and then be able to send scheduled or real-time notifications to the patient. These notifications contain the name of the medicine you will need to administer. The administrator also has access to the patient's location.
+   eg: This function is useful if the patient is lost in a city.
   
-## Cum functioneaza?
+## How it works?
 
-  Aplicatia este creata in react-native si expo. Avantajul aplicatiei este acela ca este cross-platform.
-  Aplicatia este dependenta de API-ul: https://github.com/laurentiutibea/alzhelp_api
+  The app is created in react-native and expo. The app is cross-platform.
+  API for the app: https://github.com/laurentiutibea/alzhelp_api
   
-  Rularea aplicatiei:
-  * Instalarea modulelor API-ului
+  How to run the app:
+  * Install API's node modules
   ```
   # >cd alzhelp_api
   $ npm install
   ```
-  * Pornirea API-ului
+  * Run the API
   ```
   # >cd alzhelp_api
-  # Setarea unui cod privat pentru criptarea JWT-ului generat la autentificare.
+  # Set a private key for the authentication JWT.
   $ set alzhelp_jwtPrivateKey=jwtPrivateKey
   $ node index.js
   ```
-  * Instalarea modulelor aplicatiei
+  * Install app's node modules
    ```
   # >cd alzhelp
   $ npm install
   ```
-  * Pornirea aplicatiei
+  * Run the app
   ```
   # >cd alzhelp
   $ expo start
   ```
-  * < Optional > Crearea aplicatiei standalone
+  * < Extra > Create standalone app
   ```
   # >cd alzhelp
-  # Pentru android:
+  # For android:
   $ expo build:android
-  # Pentru iOS:
+  # For iOS:
   $ expo build:ios
   ```
   
@@ -63,4 +63,3 @@
 
 > Email: [laurentiutibea@gmail.com] &middot;
 > GitHub [@laurentiutibea](https://github.com/laurentiutibea)
-
