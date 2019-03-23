@@ -8,7 +8,7 @@
   <br>
 </h1>
 
-<h4 align="center">AlzHelp - Localiztion & Pill Reminder</h4>
+<h4 align="center">AlzHelp - Localization & Pill Reminder</h4>
 <br>
 <div align="center">
   <img src="https://i.ibb.co/M8dDS3q/50236730-2249243415335729-4926195100440068096-n.jpg" alt="AlzHelp" width=200>
